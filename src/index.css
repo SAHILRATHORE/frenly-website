@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(218, 227, 193);
+}
+/* .carousel{
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        pink,
+        transparent
+    );
+} */
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.group{
+    animation: MoveX 30s infinite linear;
+}
+
+@keyframes MoveX {
+    from{
+        translate: 0%;
+    }
+    to{
+        translate: -100%;
+    } 
+}
+.DifferentMoving{
+    animation: Different 40s infinite linear;
+}
+@keyframes Different {
+    from{
+        translate: 0%;
+    }
+    to{
+        translate: -100%;
+    } 
+}
