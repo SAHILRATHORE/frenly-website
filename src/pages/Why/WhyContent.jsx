@@ -17,9 +17,9 @@ const WhyContent = () => {
                 const tl = gsap.timeline({
                     scrollTrigger: {
                         trigger: DivRef.current,
-                        // markers: true,
+                        markers: true,
                         start: 'top 20%',
-                        end: '300% 20%',
+                        end: '275% 20%',
                         pin: true,
                         scrub: true
                     },
@@ -79,7 +79,7 @@ const WhyContent = () => {
                     <p className='text-lg font-medium leading-6 capitalize'>On-chain sell limits automatically manage on-market exits, preventing damaging dumps without any manual oversight.</p>
                 </div>
                 <div className='lg:w-2/3 px-5 lg:px-0 flex flex-col gap-5'>
-                    <h1 className='bg-pink-400 uppercase w-fit lg:px-3.5 px-4 lg:py-1 py-2 rounded-full text-white font-medium lg:whitespace-nowrap '>Controlled Freedom - Exit Without Impact</h1>
+                    <h1 className='bg-pink-400 uppercase w-fit lg:px-3.5 px-6 lg:py-1 py-2 rounded-full text-white font-medium lg:whitespace-nowrap '>Controlled Freedom - Exit Without Impact</h1>
                     <p className='text-lg font-medium leading-6 capitalize'>When it's time to sell, contributors can bypass sell limits by using poolparty's price-impact-free C1 pool - ensuring maximum returns without harming the project's chart.</p>
                 </div>
             </div>
