@@ -17,7 +17,7 @@ const WhyContent = () => {
                 const tl = gsap.timeline({
                     scrollTrigger: {
                         trigger: DivRef.current,
-                        markers: true,
+                        // markers: true,
                         start: 'top 20%',
                         end: '275% 20%',
                         pin: true,
