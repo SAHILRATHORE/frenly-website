@@ -85,7 +85,7 @@ const WhyCard = () => {
         <img className='absolute lg:-top-10 -top-8
         
         lg:-right-10 -right-5 lg:h-[15vh] h-[10vh] z-10' src={Pepe} alt="Pepe" />
-        <div className='lg:h-[50vh] h-[40vh] lg:w-[17vw] w-[65vw] bg-pink-400 lg:pt-[40%] lg:pt-0 rounded-3xl p-5 flex flex-col justify-center items-center relative'>
+        <div className='lg:h-[50vh] h-[40vh] lg:w-[17vw] w-[65vw] bg-pink-400 lg:pt-[40%] pt-0 rounded-3xl p-5 flex flex-col justify-center items-center relative'>
           <h1 className='lg:text-3xl text-4xl capitalize font-bold lg:leading-7'>on-chain</h1>
           <h1 className='lg:text-3xl text-4xl capitalize font-bold lg:leading-7'>sell limits</h1>
           <p className='capitalize absolute bottom-5 mx-4 lg:mx-0 lg:text-[12px] font-medium text-center'>Code-enforced limits processed damaging dumps.</p>
