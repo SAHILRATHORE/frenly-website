@@ -9,7 +9,7 @@ import Bottom from './pages/Bottom/Bottom'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden max-w-screen'>
      <Navbar/> 
      <Home/>
      <TheProblem/>
